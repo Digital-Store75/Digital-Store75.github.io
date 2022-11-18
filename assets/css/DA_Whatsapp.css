@@ -1,0 +1,36 @@
+a {
+  border: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  /*box-sizing: inherit;*/
+}
+
+*:before, *:after {
+  /*box-sizing: inherit;*/
+}
+
+#wp {
+  position: fixed;
+  z-index: 100;
+  height: 60px;
+  width: 60px;
+  right: 40px;
+  bottom: 40px;
+  border-radius: 50px;
+  background-color: rgb(38,231,7);
+  font-size: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #000000;
+  color: #FFF;
+}
+
+#wp:hover {
+  /*color: rgb(72,90,255);*/
+  text-decoration: none;
+}
+
